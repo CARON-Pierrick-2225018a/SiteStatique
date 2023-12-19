@@ -1,12 +1,12 @@
 .homeTitle {
     font-weight: bold;
     justify-content: left;
-    color: var(--white);  /* Assuming you have this variable for white color, if not, you can just use `white` directly */
+    color: white;  /* Assuming you have this variable for white color, if not, you can just use `white` directly */
+}
+.colorText{
+    color : white;
 }
 
-.background {
-    background: var(--purple-blue) !important;
-}
 
 .block {
     display: block;
@@ -53,7 +53,7 @@
     fill: none;
     stroke-linecap: round;
     stroke-linejoin: round;
-    stroke: var(--white);  /* Same assumption about white color */
+    stroke: white;  /* Same assumption about white color */
     stroke-width: 2;
     transform: translateX(-5px);
     transition: all 0.3s ease;
@@ -61,9 +61,9 @@
 
 .cta:hover:before {
     width: 100%;
-    color: var(--white);
-    background: var(--purple);
-    box-shadow: var(--shadow-default) 0 5px 15px;
+    color: white;
+    background: blue;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 5px 15px;
 }
 
 .cta:hover .svg1 {
@@ -75,16 +75,16 @@
 }
 
 a:hover {
-    color: var(--white);
+    color: white;
 }
 
 .noneColor {
     text-decoration: none;
-    color: var(--white);
+    color: white;
 }
 
 .colorButton {
-    background: var(--purple);
+    background: blue;
 }
 
 .sizeRs {
