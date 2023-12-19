@@ -1,0 +1,29 @@
+.background-color-blue{
+    background: #37517E;
+}
+.text-color{
+    color: white!important;
+    font-weight: bold!important;
+    font-size: 17px;
+}
+.btn-outline-light{
+    border-radius: 50px!important;
+}
+.logo-container {
+    flex-grow: 1!important; /* Le logo prendra autant d'espace disponible que possible */
+}
+.navbar-collapse{
+    text-align: center;
+}
+.background-color-blue {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 767.98px) {
+    /* Styles spécifiques pour les écrans de téléphone */
+    .background-color-blue {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
