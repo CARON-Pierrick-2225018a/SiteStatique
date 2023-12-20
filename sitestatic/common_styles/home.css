@@ -84,7 +84,7 @@ a:hover {
 }
 
 .colorButton {
-    background: blue;
+    background: blue !important ;
 }
 
 .sizeRs {
