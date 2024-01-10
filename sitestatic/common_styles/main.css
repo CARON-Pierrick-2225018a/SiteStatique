@@ -1,0 +1,49 @@
+:root {
+    /* Base Colors */
+    --purple: #6600CC;
+    --purple-light: rgba(158, 117, 253, 0.7);
+    --purple-blue: linear-gradient(90deg,purple, darkviolet, deepskyblue);
+    --black: black;
+    --red: red;
+    --orange: orange;
+    --yellow: yellow;
+    --green: green;
+    --grey-light: #D9D9D9;
+    --white: white;
+    --gris: #989898;
+
+    /* Button Colors */
+    --btn-bg-color: #f8f9fa;
+    --btn-text-color: var(--black);
+    --btn-danger-color: var(--purple);
+    --btn-danger-focus-shadow: #9669F5;
+
+    /* Shadow & Opacity */
+    --shadow-default: rgba(0, 0, 0, 0.24);
+    --shadow-hover: #7B3DFF;
+    --opacity-passwordStrength: 0.1;
+
+    /* Layout & Dimensions */
+    --section-bg-color: var(--grey-light);
+    --primary-color: var(--purple);
+    --right-side-width: 47%;
+    --border-radius-medium: .7rem;
+    --border-width-medium: 2px;
+    --font-size-small: 13px;
+    --img-width-small: 185px;
+    --img-width-medium: 200px;
+    --border-radius-large: 0.75rem;
+    --large-padding: 2rem;
+
+    /* Password Strength Colors */
+    --password-weak-color: var(--red);
+    --password-medium-color: var(--orange);
+    --password-strong-color: var(--yellow);
+    --password-verystrong-color: var(--green);
+
+    /*Background*/
+    --background-color: transparent;
+}
+body {
+    overflow-x: hidden;
+}
